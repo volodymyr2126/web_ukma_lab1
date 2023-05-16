@@ -6,29 +6,43 @@
 </head>
 <body>
 <form class="compact_card">
+    <p>
     <span>Name</span>
+    </p>
     <input type="text" name="name" size="15">
     <br/><br/>
+    <p>
     <span>Sex</span>
+    </p>
     <input type="radio" id="male" name="sex" value="male">
     <label for="male">male</label>
     <input type="radio" id="female" name="sex" value="female">
     <label for="female">female</label>
     <br/><br/>
+    <p>
     <span>Date of Birth</span>
+    </p>
     <input type="date" name="date of birth" size="15">
     <br/><br/>
+    <p>
     <span>Email</span>
+    </p>
     <input type="email" name="email" size="15">
     <br/><br/>
+    <p>
     <span>Phone number</span>
     <span>(+38)</span>
-    <input type="tel" id="phone number" name="phone number" placeholder="099-454-6781" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    </p>
+    <input type="tel" id="phone_number" name="phone_number" placeholder="099-454-6781" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
     <br/><br/>
+    <p>
     <span>Background color</span>
+    </p>
     <input type="color" name="background color" size="15">
     <br/><br/>
+    <p>
     <span>Country</span>
+    </p>
     <select id="country" name="country">
         <option value="Ukraine">Ukraine</option>
         <option value="USA">USA</option>
@@ -36,13 +50,17 @@
         <option value="United Kingdom">United Kingdom</option>
     </select>
     <br/><br/>
+    <p>
     <span>City</span>
+    </p>
     <input type="text" name="city" size="15">
     <br/><br/>
+    <p>
     <span>Comment</span>
-    <input type="text" name="Comment" size="15">
+    </p>
+    <textarea name="Comment"></textarea>
     <br/><br/>
-        <input type="submit" value="Create new teacher"></td>
+    <input type="submit" value="Create new teacher"></td>
 </form>
 </body>
 </html>
