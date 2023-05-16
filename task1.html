@@ -1,37 +1,46 @@
 <!DOCTYPE html>
-<html lang="UA">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0"\>
 </head>
 <body>
 <form class="compact_card">
-    <span>Ім'я</span>
-    <input type="text" name="input" size="15">
+    <span>Name</span>
+    <input type="text" name="name" size="15">
     <br/><br/>
-    <span>Cтать</span>
-    <input type="text" name="input" size="15">
+    <span>Sex</span>
+    <input type="radio" id="male" name="sex" value="male">
+    <label for="male">male</label>
+    <input type="radio" id="female" name="sex" value="female">
+    <label for="female">female</label>
     <br/><br/>
-    <span>Дата народження</span>
-    <input type="text" name="input" size="15">
+    <span>Date of Birth</span>
+    <input type="date" name="date of birth" size="15">
     <br/><br/>
     <span>Email</span>
-    <input type="text" name="input" size="15">
+    <input type="email" name="email" size="15">
     <br/><br/>
-    <span>Телефон</span>
-    <input type="text" name="input" size="15">
+    <span>Phone number</span>
+    <span>(+38)</span>
+    <input type="tel" id="phone number" name="phone number" placeholder="099-454-6781" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
     <br/><br/>
-    <span>Бажаний колір фону</span>
-    <input type="text" name="input" size="15">
+    <span>Background color</span>
+    <input type="color" name="background color" size="15">
     <br/><br/>
-    <span>Країна</span>
-    <input type="text" name="input" size="15">
+    <span>Country</span>
+    <select id="country" name="country">
+        <option value="Ukraine">Ukraine</option>
+        <option value="USA">USA</option>
+        <option value="Germany" selected>Germany</option>
+        <option value="United Kingdom">United Kingdom</option>
+    </select>
     <br/><br/>
-    <span>Місто</span>
-    <input type="text" name="input" size="15">
+    <span>City</span>
+    <input type="text" name="city" size="15">
     <br/><br/>
-    <span>Коментар</span>
-    <input type="text" name="input" size="15">
+    <span>Comment</span>
+    <input type="text" name="Comment" size="15">
     <br/><br/>
         <input type="submit" value="Create new teacher"></td>
 </form>
