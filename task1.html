@@ -7,12 +7,12 @@
 <body>
 <form class="compact_card">
     <p>
-    <span>Name</span>
+    <label for="name">Name</label>
     </p>
-    <input type="text" name="name" size="15">
+    <input type="text" id="name" name="name" size="15">
     <br/><br/>
     <p>
-    <span>Sex</span>
+    <label>Sex</label>
     </p>
     <input type="radio" id="male" name="sex" value="male">
     <label for="male">male</label>
@@ -20,28 +20,28 @@
     <label for="female">female</label>
     <br/><br/>
     <p>
-    <span>Date of Birth</span>
+    <label for="birthdate">Date of Birth</label>
     </p>
-    <input type="date" name="date of birth" size="15">
+    <input type="date" name="date_of_birth" id="birthdate" size="15">
     <br/><br/>
     <p>
-    <span>Email</span>
+    <label for="email">Email</label>
     </p>
-    <input type="email" name="email" size="15">
+    <input type="email" id="email" name="email" size="15">
     <br/><br/>
     <p>
-    <span>Phone number</span>
-    <span>(+38)</span>
+    <label for="phone_number">Phone number</label>
     </p>
+    <label>(+38)</label>
     <input type="tel" id="phone_number" name="phone_number" placeholder="099-454-6781" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
     <br/><br/>
     <p>
-    <span>Background color</span>
+    <label for="background_color">Background color</label>
     </p>
-    <input type="color" name="background color" size="15">
+    <input type="color" id="background_color"name="background color" size="15">
     <br/><br/>
     <p>
-    <span>Country</span>
+    <label for="country">Country</label>
     </p>
     <select id="country" name="country">
         <option value="Ukraine">Ukraine</option>
@@ -51,16 +51,16 @@
     </select>
     <br/><br/>
     <p>
-    <span>City</span>
+    <label for="city">City</label>
     </p>
-    <input type="text" name="city" size="15">
+    <input type="text" id="city" name="city" size="15">
     <br/><br/>
     <p>
-    <span>Comment</span>
+    <label for="comment">Comment</label>
     </p>
     <textarea name="Comment"></textarea>
     <br/><br/>
-    <input type="submit" value="Create new teacher"></td>
+    <input type="submit" id="comment" value="Create new teacher"></td>
 </form>
 </body>
 </html>
